@@ -1,0 +1,68 @@
+.container{
+    background-color: rgb(32, 30, 30);
+
+
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: aliceblue;
+    background-color:rgb(32, 30, 30)
+    
+
+}
+
+.barra{
+    padding-left: 30px;
+    height:45px;
+    display: flex;
+    border:none;
+    width:300px;
+    font-size:36px;
+    outline: none;
+    border-radius: 20px;
+    padding-right: 75px;
+    
+}
+.busca{
+    position: relative;
+}
+
+.lupa{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+
+
+}
+.teclado{
+    position: absolute;
+    top: 15px;
+    right: 55px;
+
+
+}
+.mic{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+}
+.camera{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color:rgb(32, 30, 30)
+    
+    
+
+
+}
